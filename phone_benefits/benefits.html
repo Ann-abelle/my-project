@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../style/jquery-1.11.3.js"></script>
+		<script src="../style/cookie.js"></script>
+		<link rel="stylesheet" type="text/css" href="../style/style.css"/>
+		<link rel="stylesheet" href="../home/home.css" />
+		<style>
+			
+			.contain{
+				width: 100%;
+				height: 358px;
+				overflow: hidden;
+				position: relative;
+			}
+			.contain ul{
+				width: 800%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.contain ul li a img{
+				width: 100%;
+				height: 358px;
+			}
+			.Lun_ul li{
+				float:left;
+			}
+			.contain ol li a{
+				background:gray;
+			}
+		</style>
+	</head>
+	<body>
+		<!-------------------------header------------------------------------>
+		<header>			
+		<!--header_top--->
+			<div class="h_top">
+				<div class="top_cen">
+					<a class="left_a" href="../login/login.html">您好！请登录</a>
+					<span class="span"></span>
+					<a class="left_a" href="../register/register.html">注册</a>
+					<ul class="list">
+						<li class="list_li list_li1"><a class="list_a list_a1" href="">我的账户<b>&#xe617;</b></a></li>
+							<div class="list1">
+								<span class="count"><a class="list1_a" href="">我的账户</a><b>&#xe614;</b></span>
+								<ul class="count_list">
+									<li><a class="list1_a" href="">我的订单</a></li>
+									<li><a class="list1_a" href="">我的小强币</a></li>
+									<li><a class="list1_a" href="">我的关注</a></li>
+									<li><a class="list1_a" href="">我的优惠券</a></li>
+								</ul>
+							</div>							
+						<li class="list_li list_li2"><a class="list_a" href="">我的消息<b>&#xe617;</b></a></li>
+							<div class="list2">
+								<span class="count"><a class="list1_a" href="">我的消息</a><b>&#xe614;</b></span>
+								<ul class="count_list inform">
+									<li><a class="list2_a" href="">暂无消息</a></li>
+								</ul>
+								
+							</div>	
+						<li class="list_li list_li3"><a class="list_a" href="">客户服务<b>&#xe617;</b></a></li>
+							<div class="list3">
+								<span class="count"><a class="list1_a" href="">客户服务</a><b>&#xe614;</b></span>
+								<ul class="serve">
+									<li><a class="list3_a" href=""><b>客服热线：0755-88698888</b></a></li>
+									<li><a class="list1_a list3_2_a" href="">在线客服</a></li>
+									<li><a class="list1_a list3_2_a" href="">售后服务</a></li>
+									<li><a class="list1_a list3_2_a" href="">意见反馈</a></li>
+									
+								</ul>
+							</div>
+						<li class="list_li list_li4"><a class="list_a" href="">关注我们<b>&#xe617;</b></a></li>
+						<div class="list4">
+							<span class="count"><a class="list1_a list4_a" href="">关注我们</a><b>&#xe614;</b></span>
+							<ul class="count_list focus1">
+								<dl class="dl1">
+									<dt><img src="img/ewm.jpg" alt="" /></dt>
+									<dd><a class="list1_a" href="">官方微信</a></dd>
+								</dl>
+								<dl class="dl2">
+									<dt><img src="img/look.jpg" alt="" /></dt>
+									<dd>
+										<p><a class="list2_a" href="">查看微博</a></p>
+										<a class="jian" href="">一建关注</a>
+									</dd>
+								</dl>
+							</ul>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<!----header_cen------->
+			<div class="h_cen">
+				<div class="h_cen_box">
+					<a href="http://www.okhqb.com/"><img src="img/logo1.jpg" alt="" /></a>
+					<a href="http://stopic.okhqb.com/xinren2016.html?utml=xrcelan"><img src="http://img7.hqbcdn.com/activity/2b/4f/2b4f38a73a55ce2044dcf87e506481ab.gif" alt="" /></a>
+					<form class="form" action="">
+						<fieldset>
+							<input type="" name="search" id="search" value="请输入搜索关键词" />
+							
+							<a href="" class="sousuo" /><a>								
+							<!--输入框的搜索-->
+							<div class="link_ul"><ul id = "search_ul"></ul><span><b>关闭</b></span></div>						
+							<a class="search_list slist" href="">iPhone XS Max ￥8888</a>
+							<a class="search_list" href="">AirPods ￥988</a>
+							<a class="search_list" href="">MacBook Air ￥5999</a>				
+						</fieldset>
+					</form>
+					<div class="shopping_wrap">
+						<a href="" class="shopping">
+							<span>&#xe603;</span>
+							<span class="sh_txt">我的购物车&gt;</span>
+							<span class="lab">0</span>
+						</a>
+					</div>
+					
+				</div>
+			</div>			
+		</header>
+		<!----------------------------banner------------------------------------->
+		<div id="banner">
+		
+			<!--------------nav部分---------------------->
+			<div class="nav">
+				<ul class="ul">
+					<li class="li"><a class="li_a product_class" href=""><span class="sp_product">&#xe610;</span>商品分类</a></li>
+						<ul class="nav_list">
+							<li class="communication">
+								<a href="">华为</a>
+								<a href="">魅族</a>
+								<a href="">小米</a>
+								<a href="">三星</a>
+								<a href="">酷派</a>
+								<a href="">乐视</a>
+								<a href="">美图</a>
+								<a href="">联想</a>
+								<a href="">诺基亚</a>
+								<a href="">更多&gt;&gt;</a>
+							</li>
+							<li class="iphone">
+								<a href="">iPhone</a>
+								<a href="">iPad</a>
+								<a href="">iPod</a>
+								<a href="">Mac</a>
+								<a href="">iPhone贴膜</a>
+								<a href="">iPhone保护壳</a>
+								<a href="">iPad贴膜</a>
+								<a href="">iPad保护壳</a>
+								<a href="">苹果原装配件</a>
+							</li>
+							<li class="parts">
+								<a href="">保护套/壳</a>
+								<a href="">手机贴膜</a>
+								<a href="">充电器/数据线</a>
+								<a href="">移动电源</a>
+								<a href="">创意配件</a>
+								<a href="">蓝牙耳机</a>
+							</li>
+							<li class="digit">
+								<a href="">耳机耳麦</a>
+								<a href="">音响/音箱</a>
+								<a href="">投影仪</a>
+								<a href="">影音播放器</a>
+								<a href="">网络盒子</a>
+								<a href="">存储卡</a>
+								<a href="">影音配件</a>
+							</li>
+							<li class="business">
+								<a href="">平板/笔记本</a>
+								<a href="">一体机</a>
+								<a href="">打印机/耗材</a>
+								<a href="">移动硬盘</a>
+								<a href="">U盘</a>
+								<a href="">鼠标</a>
+								<a href="">键盘/套装</a>
+								<a href="">散热器</a>
+								<a href="">路由器</a>
+								<a href="">电源插座</a>
+								<a href="">电脑工具</a>
+							</li>
+							<li class="life">
+								<a href="">智能穿戴</a>
+								<a href="">智能家居</a>
+								<a href="">小家电</a>
+								<a href="">健康监测</a>
+								<a href="">户外运动</a>
+								<a href="">无人机</a>
+								<a href="">汽车用品</a>
+								<a href="">智能机器人</a>
+								<a href="">智能玩具</a>
+							</li>
+							<li class="camera">
+								<a href="">摄像机</a>
+								<a href="">单反相机</a>
+								<a href="">单点/微单相机</a>
+								<a href="">数码相机</a>
+								<a href="">运动相机</a>
+								<a href="">拍立得</a>
+								<a href="">镜头</a>
+								<a href="">摄影配件</a>
+							</li>
+							<li class="game">
+								<a href="">游戏主机</a>
+								<a href="">游戏手柄</a>
+								<a href="">游戏控制器</a>
+								<a href="">游戏软件</a>
+								<a href="">配件/其他</a>
+							</li>
+						</ul>
+						<ul class="ul_1">
+							<li>
+								<a class="ul_1_li1" href=""><span class="sp_left">&#xe61a;</span>手机通讯<span class="sp_right">&#xe60b;</span></a>
+							</li>
+								
+							<li><a class="ul_1_li2" href=""><span class="sp_left">&#xe60c;</span>苹果专区<span class="sp_right">&#xe60b;</span></a></li>
+							<li>
+								<a class="ul_1_li3" href=""><span class="sp_left">&#xe6d7;</span>手机配件<span class="sp_right">&#xe60b;</span></a>
+							</li>
+							<li>
+								<a class="ul_1_li4" href=""><span class="sp_left">&#xe6a6;</span>试听/数码配件<span class="sp_right">&#xe60b;</span></a>
+							</li>
+							<li>
+								<a class="ul_1_li5" href=""><span class="sp_left">&#xe604;</span>电脑办公<span class="sp_right">&#xe60b;</span></a>
+							</li>
+							<li>
+								<a class="ul_1_li6" href=""><span class="sp_left">&#xe62b;</span>智能/生活<span class="sp_right">&#xe60b;</span></a>
+							</li>
+							<li>
+								<a class="ul_1_li7" href=""><span class="sp_left">&#xe620;</span>摄影摄像<span class="sp_right">&#xe60b;</span></a>
+							</li>
+							<li>
+								<a class="ul_1_li8" href=""><span class="sp_left">&#xe618;</span>游戏/周边<span class="sp_right">&#xe60b;</span></a>
+							</li>
+						</ul>
+					<li class="li"><a class="li_a" href="">首页</a></li>
+					<li class="li"><a class="li_a" href="">海外淘</a></li>
+					<li class="li"><a class="li_a" href="">手机惠</a></li>
+					<li class="li"><a class="li_a" href="">数码港</a></li>
+					<li class="li"><a class="li_a" href="">二手优品</a></li>
+				</ul>
+			</div>
+			<!----------------轮波图部分------------------->
+			<div id="slider" class="contain">
+				<ul class="Lun_ul">
+					<li><a href=""><img src="img/banner1.jpg"/></a></li>
+					<li><a href=""><img src="img/banner2.jpg"/></a></li>
+					<li><a href=""><img src="img/banner3.jpg"/></a></li>
+					<li><a href=""><img src="img/banner4.jpg"/></a></li>
+				</ul>
+				<ol class="ol">
+					<li><a class="dot" href="javascript:;"></a></li>
+					<li><a class="dot" href="javascript:;"></a></li>
+					<li><a class="dot" href="javascript:;"></a></li>
+					<li><a class="dot" href="javascript:;"></a></li>
+				</ol>
+				<!--左右按钮-->
+				<span id="lBtn">&lt;</span>
+				<span id="rBtn">&gt;</span>
+			</div>
+		</div>
+		
+		<!--<script src="../home/home.js"></script>-->
+		<script src="benefits.js"></script>
+		
+	</body>
+</html>

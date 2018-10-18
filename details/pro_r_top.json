@@ -1,0 +1,23 @@
+{
+	"name":"Samsung",
+	"largeName":"Samsung/三星 S9+ HK 移动联通电信全网通 双卡双待海淘手机 6GB+64GB 谜夜黑",
+	"mallPrice":4980.00,
+	"marketPrice":5699.00,
+	"numPrice":356,
+	"association":[
+		"S9",
+		"S9+",
+		"Note8",
+		"Note9"
+	],
+	"version":[
+		"6GB+64GB迷夜黑",
+		"6GB+64GB雾夕紫",
+		"6GB+128GB迷夜黑",
+		"6GB+128GB莱茵蓝",
+		"6GB+128GB雾夕紫",
+		"6GB+256GB迷夜黑",
+		"6GB+256GB莱茵蓝"
+	],
+	"minYuan":"302.0"
+}

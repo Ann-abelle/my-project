@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,b,img,table,figure,figcaption,fieldset,legend,b,input,a,em{margin:0; padding:0;}
+			ul,li,ol{list-style:none;}
+			img,fieldset{border:0; }
+			img{display:block;}
+			a{text-decoration:none; color:#0066cd;}
+			h1,h2,h3,h4,h5,h6{font-weight:100;}
+			body{ font-family:"微软雅黑"; font-size:16px;}
+			input,a{outline:none;}
+			
+			#header{
+				height:80px;
+				width:100%;
+				border-bottom:3px solid #e10808;
+				overflow:hidden;
+			}
+			.top{
+				width:980px;
+				margin-left:174px;
+				height:50px;
+				margin-top:15px;				
+			}			
+			.logo,.t_img,.line{
+				float:left;
+			}
+			.line{
+				display:inline-block;
+				width:3px;
+				height:50px;
+				background:#f0f0f0;
+				margin:0 22px 0 28px;
+			}
+			#center{
+				height:512px;
+				border-bottom:2px solid #eee;
+				overflow:hidden;
+			}
+			.pic{
+				width:610px;
+				height:490px;
+				margin: 20px 0 0 180px;
+				float:left;
+			}
+			.form{
+				border:1px solid #d7d7d7;
+				width:300px;
+				padding:24px;
+				background:#f5f5f5;
+				float:left;
+				margin-top:70px;
+			}
+			.form b{				
+				font-size:14px;
+				color:#666;
+			}
+			.form fieldset{
+				margin-top:18px;
+			}
+			.val{
+				width:277px;
+				height:37px;
+				line-height:37px;
+				color:#666;
+				font-size:12px;
+				padding-left:10px;
+			}
+			.span{
+				color:#999;
+				font-size:12px;
+				margin-left:6px;
+			}
+			#btn{
+				width:135px;
+				height:39px;
+				background:#2d82f9;
+				line-height:39px;
+				text-align:center;
+				font-size:20px;
+				color:#fff;
+				border:0;
+				margin-bottom:11px;
+			}
+			#btn+a:hover,p:nth-of-type(1)>a:hover{
+				text-decoration:underline;
+			}
+			p:nth-of-type(2) a,p:nth-of-type(2) a img{				
+				float:left;
+				font-size:12px;
+				color:#999;
+				margin-right:4px;
+			}
+			p:nth-of-type(2){
+				margin-top:37px;
+			}
+			.ver{
+				font-size:12px;
+				color:red;
+				margin-bottom:4px;
+				display:block;				
+			}
+			.bottom,.bottom a{
+				color:#808080;
+				margin-top:28px;
+				text-align:center;
+				font-size:12px;
+			}
+			.bottom a:hover{
+				text-decoration:underline;				
+			}
+			.bottom img{
+				display:inline-block;
+				margin-right:9px;
+			}
+		</style>
+		<script type="text/javascript" src="../style/jquery-1.11.3.js"></script>
+		<script src="../style/cookie.js"></script>
+	</head>
+	<body>
+		<!------------------------header----------------------------->
+		<div id="header">
+			<div class="top">
+				<span><a class="logo" href="http://www.okhqb.com"><img src="img/logo.jpg" alt="" /></a></span>
+				<span class="line"></span>
+				<span class="t_img"><img src="img/top1.jpg" alt="" /></span>
+			</div>
+		</div>
+		<!------------------------center----------------------------->
+		<div id="center">
+			<img class="pic" src="img/login_express.jpg" alt="" />
+			<form class="form" action="">
+				<b>会员登录</b>
+				<fieldset>
+					<span class="ver"></span>
+					<input class="val" type="text" name="tel" id="tel" value="请输入您的昵称/邮箱/手机号" />
+				</fieldset>
+				<fieldset>
+					<input class="val" type="password" name="pwd" id="pwd" placeholder="请输入您的密码" />
+				</fieldset>
+				<fieldset>
+					<input type="checkbox" name="checkbox" id="checkbox" value="" /><span class="span">自动登录</span>
+				</fieldset>
+				<fieldset>
+					<input type="button" name="btn" id="btn" value="登录" /><a href="http://login.okhqb.com/member/memberForget.html" class="span">忘记密码了？</a>
+				</fieldset>
+				<p>还不是抢粉?<a href="../register/register.html">立即免费注册</a></p>
+				<p>
+					<a href="http://login.okhqb.com/member/union/qq.html?forward=http%253A%252F%252Fwww.okhqb.com%252F"><img src="img/qq.jpg"/>QQ登录
+					</a>
+					<a href="http://login.okhqb.com/member/union/sina.html?forward=http%253A%252F%252Fwww.okhqb.com%252F"><img src="img/wb.jpg" alt="" />微博登录
+					</a>
+					<a href="http://login.okhqb.com/member/union/alipay.html?forward=http%253A%252F%252Fwww.okhqb.com%252F"><img src="img/count.jpg" alt="" />支付宝登录
+					</a>
+					<a href="http://login.okhqb.com/member/toWechatUnoinLogin.html?forward=http%253A%252F%252Fwww.okhqb.com%252F"><img src="img/wx.jpg"/>微信登录
+					</a>
+				</p>
+			</form>
+		</div>
+	<!------------------------footer----------------------------->
+		<p class="bottom">Copyright&copy;2010-2015 深圳市华强北在线商务有限公司 版权所有 粤ICP备12050212号-1 <a href="/assets/v3/images/newindex/foot_icon1_gb.jpg"><img src="img/foot_icon1_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon2_gb.jpg"><img src="img/foot_icon2_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon3_gb.jpg"><img src="img/foot_icon3_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon4_gb.jpg"><img src="img/foot_icon4_gb.jpg" alt="" /></a>
+		<a href="http://www.okhqb.com/link">友情链接</a> 
+		<a href="http://www.okhqb.com/sitemap.html">网站地图</a>
+		关注我们：<a href="/assets/v3/images/newindex/t_sina_gb.jpg"><img src="img/t_sina_gb.jpg" alt="" /></a>
+			<a href="/assets/v3/images/newindex/t_qq_gb.jpg"><img src="img/t_qq_gb.jpg" alt="" /></a></p>
+			<script src="login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,390 @@
+.w-1200,.product_info{
+	margin:0 auto;
+	width:1200px;
+}
+/******************************nav**********************************************/
+#banner{
+	position:relative;
+}
+
+/**************nav***************/
+.ul{
+	height:100%;
+	margin-left:26px;
+}
+.li{	
+	float:left;	
+}
+.li_a{
+	display:inline-block;
+	height:38px;
+	width:150px;
+	text-align:center;
+	line-height:38px;
+	font-size:16px;
+	color:#fff;
+}
+.product_class{
+	width:174px;
+}
+.ul_1{
+	display:none;
+	position:absolute;
+	top:38px;
+}
+.ul_1 li a{
+	display:block;
+	background:#000;
+	color:#fff;
+	opacity:.7;
+	width:146px;
+	height:46px;
+	font-size:12px;
+	padding-left:28px;
+	line-height:46px;
+}
+.sp_right,.sp_left,.sp_product{
+	font-family:iconfont;
+}
+.sp_product{
+	font-size:24px;
+	margin-right:20px;
+}
+.sp_right{	
+	color:#666;
+	float:right;
+	margin-right:12px;
+}	
+.sp_left{
+	float:left;
+	color:#fff;
+	font-size:18px;
+	margin-right:24px;
+}
+.nav_list{
+	display:none;
+	width:236px;
+	height:367px;
+	background:#f8f8f8;
+	position:absolute;
+	top:38px;
+	left:200px;
+	padding:0 30px 0 0;
+	
+}	
+.nav_list li a{
+	font-size:12px;
+	color:#808080;
+	display:inline-block;
+	margin:16px 0 12px 14px;
+}
+.communication,.iphone,.parts,.digit,.business,.life,.camera,.game{
+	display:none;
+}	
+.nav{
+	height:38px;
+	background:#1c84f5;
+}	
+/**************************************body*************************************/
+.nav_small{
+	padding:10px 0;
+	background-color:#f3f4f5;;
+}
+.w-1200 span a{
+	color:#444;
+}
+.w-1200 span a:hover{
+	text-decoration:underline;
+}
+.product_info{
+	padding:10 0 20 0;
+	height:auto;
+}
+.info_img{
+	float: left;
+    margin: 10px 40px 0 30px;
+    width: 340px;
+    height: 500px;
+}
+.big_show{	
+	height: 340px;
+    width: 340px;
+    border: 1px solid #e1e1e1;
+}
+.bot_img{
+	position: relative;
+    margin: 15px 0;
+    padding: 0 30px;
+    height: 62px;
+}
+.sl-btn {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 22px;
+    height: 60px;
+    border: 1px solid #e1e1e1;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -46px 0;
+    cursor: not-allowed;
+}
+.sl-prev {
+    left: 0;
+    background-position: -69px 0;
+}
+.sl-next {
+    right: 0;
+}
+.thurb-sl{
+	position: relative;
+    height: 62px;
+    overflow: hidden;
+}
+.thurb-sl ul {	
+    position: absolute;
+    left: 0;
+    top: 0;   
+}
+.thurb-sl ul li {
+    float: left;
+    margin-right: 8px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.share_focus {
+	float:left;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 60px;
+    color: #555555;
+    cursor: pointer;
+}
+.share_focus i {
+    display: inline-block;
+    margin-right: 4px;
+    width: 14px;
+    height: 12px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -156px -77px;
+}
+.share {
+	float:left;
+	cursor:pointer;
+}
+.share i {
+    display: inline-block;
+    margin-right: 4px;
+    width: 14px;
+    height: 12px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -174px -63px;
+}
+.share-list{
+	display: none;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 12px 10px 8px 10px;
+    border: 1px solid #e10808;
+}
+.share-list span {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat 0 -60px;
+    cursor: pointer;
+}
+.sina-btn {
+    margin-left: 10px;
+    background-position: -38px -60px;
+}
+.info-v{
+	float: left;
+    padding-bottom: 30px;
+    width: 560px;
+    padding-right: 18px;
+    border-right: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+.v-title{
+	margin-top:10px;
+}
+.v-title h2{
+	
+	height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #636363;
+}
+.g-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -162px -136px;
+}
+.v-a1{
+	margin-bottom: 10px;
+    max-height: 60px;
+    line-height: 30px;
+    color: #222222;
+    font-size: 24px;
+}
+.v-title .v-a1, .v-title .v-a2 {
+    overflow: hidden;
+    word-break: break-all;
+}
+.v-a2 {
+    height: 40px;
+    line-height: 20px;
+    color: #e10808;
+}
+.v-info1 {	
+    margin: 10px 0;
+    padding: 15px 10px;
+    background-color: #f3f4f5;
+}
+.info-v dl {
+    margin: 8px 0;
+    padding-left: 80px;
+}
+
+.info-v dt {
+    margin-left: -80px;
+    text-align: right;
+    width: 60px;
+    color: #666666;
+}
+.info-v dt, .info-v dd {
+    padding: 5px 0;
+    line-height: 20px;
+}
+.v-info1 .v-price {
+    margin-top: -5px;
+    height: 30px;
+    color: #E10808;
+    font-size: 14px;
+}
+.v-price del {
+    margin-left: 16px;
+    font-size: 12px;
+    color: #666666;
+}
+.v-price b {
+    font-size: 26px;
+}
+.tips-box {
+	margin-top:-50px;
+    float: right;
+    width: 150px;
+    height: 60px;
+}
+.v-info1 .tips-box .pri-rd {
+    float: left;
+    width: 38px;
+    height: 42px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -93px 0;
+    cursor: pointer;
+}
+.tips-box .eva-num {
+    float: left;
+    margin-left: 10px;
+    padding-left: 14px;
+    height: 34px;
+    line-height: 17px;
+    border-left: 1px solid #444444;
+    font-size: 14px;
+}
+.v-info2{
+	padding:10px;
+}
+.asoc{
+	font-size:12px;
+	float:left;
+	margin: 8px 0;
+    padding-left: 80px;
+}
+.margin-min{	
+	float:left;
+	line-height: 32px;	
+}
+.v-item {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    color: #222;
+    text-decoration: none;
+}
+.stag {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 28px;
+    height: 20px;
+    cursor: pointer;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat -75px -61px;
+}
+.stag-num {
+    color: #E10808;
+    font-style: normal;
+    font-weight: normal;
+}
+.v-info2 .less {
+    margin-right: -1px;
+}
+.v-info2 .num-btn {
+    display: inline-block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    background-color: #f1f1f1;
+}
+.v-info2 .sku-num {
+    float: left;
+    width: 50px;
+    height: 24px;
+    border: 1px solid #e1e1e1;
+    line-height: 24px;
+    text-align: center;
+}
+.v-info2 .plus {
+    margin-left: -1px;
+}
+.v-info2 .num-tips {
+    display: none;
+    margin-left: 20px;
+    color: red;
+}
+.product_dl4{
+	clear:left;
+}
+.v-info2 .add-on {
+    background-color: #E10808;
+}
+.add {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.v-buy{
+	clear:left;
+}
+

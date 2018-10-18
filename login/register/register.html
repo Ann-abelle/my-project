@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,b,img,table,figure,figcaption,fieldset,legend,b,input,a,em{margin:0; padding:0;}
+			ul,li,ol{list-style:none;}
+			img,fieldset{border:0; }
+			img{display:block;}
+			a{text-decoration:none; color:#0066cd;}
+			h1,h2,h3,h4,h5,h6{font-weight:100;}
+			body{ font-family:"微软雅黑"; font-size:16px;}
+			input,a{outline:none;}
+					
+			.top,.cen_box{width:980px;margin-left:174px;}
+			#header{
+				height:80px;
+				width:100%;
+				border-bottom:3px solid #e10808;
+				overflow:hidden;
+			}
+			.top{
+				height:50px;
+				margin-top:15px;				
+			}			
+			.logo,.t_img,.line{
+				float:left;
+			}
+			.line{
+				display:inlne-block;
+				width:3px;
+				height:50px;
+				background:#f0f0f0;
+				margin:0 22px 0 28px;
+			}
+			#center{
+				height:512px;
+				border-bottom:2px solid #eee;
+			}
+			.cen_box{
+				height:100%;
+				overflow:hidden;
+			}	
+			.cen_top{
+				height:50px;
+				border-bottom:2px solid #dbdbdb;
+				position:relative;
+			}
+			.form{
+				float:left;
+				margin-top:40px;
+			}
+			.person{
+				float:left;
+				margin-top:10px;
+				margin-right:5px;
+				}
+			.num{
+				margin-top:24px;
+				display:inline-block;
+				color:#adadad;
+				}
+			  .phone{
+				width:126px;
+				height:29px;
+				font-size:14px;
+				border:1px solid #adadad;
+				border-bottom:0;
+				display:inline-block;
+				text-align:center;
+				line-height:29px;
+				margin-left:188px;
+				position:absolute;
+				top:22px;
+				background:#fff;
+			}
+			
+			
+			.option{
+				margin-bottom:14px;
+			}
+			.option label{
+				width:130px;
+				line-height:40px;
+				height:40px;
+				float:left;
+			}
+			.ver_txt{
+				display:inline-block;
+				float:left;
+				margin-top:8px;
+			}
+			.option label span{
+				float:right;				
+			}
+			.val{
+				width:320px;
+				height:38px;
+				border:1px solid #c9c8c8;
+				margin-left:14px;
+				float:left;
+				margin-right:2px;
+				border-radius:1px;
+			}
+			.val+span,.s2,.s3{
+				font-size:12px;
+				color:#adadad;
+				margin:10px 0 0 6px;
+				display:inline-block;
+			}
+			.ver{
+				width:125px;
+			}
+			.option .ver_img{
+
+				float:left;
+				display:inline-block;
+				width:90px;
+				height:30px;
+				border:1px solid #000;
+				margin:4px 15px 0 4px;	
+				line-height:30px;
+				text-align:center;
+				color:red;
+				font-size:18px;
+				font-weight:700;			
+			}
+			.tel_btn{
+				margin-top:4px;
+				width:98px;
+				height:26px;
+			}
+			#checkbox{
+				margin-left:14px;
+			}
+			.check_box #checkbox,.check_box span{
+				margin-top:8px;				
+			}
+			#submit{
+				width:142px;
+				height:40px;
+				background:#3687fc;
+				font-size:18px;
+				color:#fff;
+				line-height:40px;
+				text-align:center;
+				margin-left:14px;
+				border:0;
+			}
+			.right{
+				margin-top:36px;
+				border:1px solid #e2e2e2;
+				float:right;
+				width:172px;
+				height:142px;
+				padding:24px;
+				
+			}
+			.right a:not(:first-child){
+				display:block;
+				margin-bottom:10px;
+			}
+			.right p{
+				margin-bottom:27px;
+			}
+			.right a img{
+				float:left;
+				margin-right:7px;
+			}
+			.method{
+				color:#333;
+			}
+			.bottom,.bottom a{
+				color:#808080;
+				margin-top:28px;
+				text-align:center;
+				font-size:12px;
+			}
+			.bottom a:hover{
+				text-decoration:underline;				
+			}
+			.bottom img{
+				display:inline-block;
+				margin-right:9px;
+			}
+		</style>
+		<script src="jquery-1.11.3.js"></script>
+		<script src="cookie.js "></script>
+	</head>
+	<body>
+		<!------------------------header----------------------------->
+		<div id="header">
+			<div class="top">
+				<span><a class="logo" href="http://www.okhqb.com"><img src="img/logo.jpg" alt="" /></a></span>
+				<span class="line"></span>
+				<span class="t_img"><img src="img/top1.jpg" alt="" /></span>
+			</div>
+		</div>
+		<!------------------------center----------------------------->
+		<div id="center">
+			<div class="cen_box">
+				<div class="cen_top">
+					<img class="person" src="img/cen_per.jpg" alt="" />
+					<span class="num">注册账号</span>
+					<div class="phone">手机注册</div>
+				</div>
+				<form class="form" action="">
+					<fieldset class="option">
+						<label for="tel">
+							<span>手机号码:</span>
+						</label>
+						<input class="val" type="text" name="tel" id="tel" value="" /><span class="s1"></span>
+					</fieldset>
+					<fieldset class="option">
+						<label for="verification">
+							<span>验证码:</span>
+						</label>
+						<input class="val ver" type="text" name="verification" id="verification" value="" />
+						<span class="ver_img"></span>
+						<span class="ver_txt">看不清？<a class="change" href="javascript:;">换一张</a></span><span class="s2"></span>
+					</fieldset>
+					<fieldset class="option">
+						<label for="tel_ver">
+							<span>手机验证码:</span>
+						</label>
+						<input class="val" type="text" name="tel_ver" id="tel_ver" value="" />
+						<input class="tel_btn" type="button" name="" id="tel_btn" value="获取验证码" /><span class="s3"></span>
+					</fieldset>
+					<fieldset class="option">
+						<label for="pwd">
+							<span>登录密码:</span>
+						</label>
+						<input class="val" type="password" name="pwd" id="pwd" value="" /><span class="s4"></span>
+					</fieldset>
+					<fieldset class="option">
+						<label for="qpwd">
+							<span>确认密码:</span>
+						</label>
+						<input class="val" type="password" name="qpwd" id="qpwd" value="" /><span class="s5"></span>
+					</fieldset>
+					<fieldset class="option check_box">
+						<label for="">
+						</label>
+						<input type="checkbox" name="qpwd" id="checkbox" value="" />
+						<span>我已阅读并同意<a href="#"></a>《华强北商城服务协议》</span>
+					</fieldset>
+					<fieldset class="option check_box">
+						<label for="">
+						</label>
+						<input type="submit" name="submit" id="submit" value="立即注册" />
+					</fieldset>						
+				</form>
+				<div class="right">
+					<p>已有账号，<a href="../login/login.html">直接登录&gt;&gt;</a></p>
+					<a class="method" href="http://login.okhqb.com/member/union/qq.html?forward="><img src="img/qq.jpg" alt="" />使用QQ登录</a>
+					<a class="method"href="http://login.okhqb.com/member/union/sina.html?forward="><img src="img/wb.jpg" alt="" />使用新浪微博登录</a>
+					<a class="method"href="http://login.okhqb.com/member/union/alipay.html?forward="><img src="img/count.jpg" alt="" />使用支付宝登录</a>
+				</div>
+			</div>
+		</div>
+		<!------------------------footer----------------------------->
+		<p class="bottom">Copyright&copy;2010-2015 深圳市华强北在线商务有限公司 版权所有 粤ICP备12050212号-1 <a href="/assets/v3/images/newindex/foot_icon1_gb.jpg"><img src="img/foot_icon1_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon2_gb.jpg"><img src="img/foot_icon2_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon3_gb.jpg"><img src="img/foot_icon3_gb.jpg" alt="" /></a>
+		<a href="/assets/v3/images/newindex/foot_icon4_gb.jpg"><img src="img/foot_icon4_gb.jpg" alt="" /></a>
+		<a href="http://www.okhqb.com/link">友情链接</a> 
+		<a href="http://www.okhqb.com/sitemap.html">网站地图</a>
+		关注我们：<a href="/assets/v3/images/newindex/t_sina_gb.jpg"><img src="img/t_sina_gb.jpg" alt="" /></a>
+			<a href="/assets/v3/images/newindex/t_qq_gb.jpg"><img src="img/t_qq_gb.jpg" alt="" /></a></p>
+		<script src="register.js"></script>
+		
+	</body>
+</html>
