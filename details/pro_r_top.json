@@ -19,5 +19,44 @@
 		"6GB+256GB迷夜黑",
 		"6GB+256GB莱茵蓝"
 	],
-	"minYuan":"302.0"
+	"minYuan":"302.0",
+	"look":
+		[
+			{
+			"src":"http://img13.hqbcdn.com/product/3f/46/3f46df59fa0d5f7caed242bc505fe714.124.jpg",
+			"name":"Huawei/华为 P20 AI智慧全面屏手机 全网通 双卡双待 6GB +128GB 宝石蓝",
+			"price":"¥3888.00",
+			"del":"¥4288.00"
+			},{
+				"src":"http://img13.hqbcdn.com/product/65/1f/651f3a5fcc8ff5863a2eec86f19c451a.124.jpg",
+			"name":"MI/小米 小米 8 全面屏游戏智能手机  全网通4G 双卡双待手机 6GB+128GB 白色",
+			"price":"¥2659.00",
+			"del":"¥3199.00"
+			},{
+				"src":"http://img16.hqbcdn.com/product/1c/47/1c470fff82183af026bed571d122ecd7.124.png",
+			"name":"Apple/苹果 Apple iPad 2018新款 9.7英寸 国行 32G WiFi版 金色",
+			"price":"¥2368.00  ",
+			"del":"¥2599.00"
+			},{
+				"src":"http://img12.hqbcdn.com/product/46/88/468867fcf60110c981617ddd461c82e8.124.jpg",
+			"name":"Meizu/魅族 M15 全面屏手机 全网通 移动联通电信 双卡双待 4GB+64GB 曜岩黑",
+			"price":"¥1380.00",
+			"del":"¥1699.00"
+			},{
+				"src":"http://img13.hqbcdn.com/product/65/1f/651f3a5fcc8ff5863a2eec86f19c451a.124.jpg",
+			"name":"MI/小米 小米 8 全面屏游戏智能手机  全网通4G 双卡双待手机 6GB+128GB 白色",
+			"price":"¥2659.00",
+			"del":"¥3199.00"
+			},{
+				"src":"http://img15.hqbcdn.com/product/84/26/8426dfbb94d53b68feff89eb910fa7e4.124.jpg",
+			"name":"Samsung/三星 S9 HK 移动联通电信全网通 双卡双待海淘手机 4GB+64GB 夕雾紫",
+			"price":"¥4250.00",
+			"del":"¥4999.00"
+			},{
+				"src":"http://img11.hqbcdn.com/product/82/9f/829f6d0e849dee4223f3ce11f8e85040.124.png",
+			"name":"Samsung/三星 S9+ HK 移动联通电信全网通 双卡双待海淘手机 6GB+64GB 谜夜黑",
+			"price":"¥4980.00",
+			"del":"¥5699.00"
+			}
+		]		
 }

@@ -104,9 +104,7 @@
 		oBox.onmouseleave = function(){
 			autoPlay();
 		}
-	}
-	
-	
+	}	
 /*var s = new Slider("slider");
 console.info(s);
 unction Slider(id){

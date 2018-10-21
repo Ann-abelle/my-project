@@ -1,4 +1,4 @@
-.w-1200,.product_info{
+.w-1200,.product_info,.artical{
 	margin:0 auto;
 	width:1200px;
 }
@@ -28,6 +28,7 @@
 	width:174px;
 }
 .ul_1{
+	z-index:999;
 	display:none;
 	position:absolute;
 	top:38px;
@@ -62,6 +63,7 @@
 	margin-right:24px;
 }
 .nav_list{
+	z-index:999;
 	display:none;
 	width:236px;
 	height:367px;
@@ -97,8 +99,55 @@
 	text-decoration:underline;
 }
 .product_info{
+	position:relative;
+	border:1px solid red;
+	overflow:hidden;
 	padding:10 0 20 0;
 	height:auto;
+}
+/*************************放大镜部分***************************/
+.float_layer{
+	display:none;
+	width:50px;
+	height:50px;
+	border:1px solid #000;
+	background:#fff;
+	filter:alpha(opacity:30);
+	opacity:.3;
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+	
+}
+.mark{	
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:990;
+	top:0;
+	left:0;
+	background:red;
+	filter:alpha(opacity:.1);
+	opacity:.1;
+}
+.big_show_pic{/*放大图片的盒子*/
+	position:absolute;
+	top:10px;
+	left:400px;
+	width:480px;
+	height:400px;
+	overflow: hidden;	
+	border: 2px solid #CCC;
+	z-index:990;
+	display:none;
+}
+.big_show_pic img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:900px;
+	height:900px;
 }
 .info_img{
 	float: left;
@@ -106,7 +155,8 @@
     width: 340px;
     height: 500px;
 }
-.big_show{	
+.big_show{
+	position:relative;	
 	height: 340px;
     width: 340px;
     border: 1px solid #e1e1e1;
@@ -138,22 +188,24 @@
 	position: relative;
     height: 62px;
     overflow: hidden;
+    border: 1px solid red;
 }
-.thurb-sl ul {	
-    position: absolute;
-    left: 0;
-    top: 0;   
+.thurb-sl ul {
+	width:100%;	
+    overflow: hidden;  
 }
-.thurb-sl ul li {
+.thurb_li{
     float: left;
-    margin-right: 8px;
+    margin-right: 7px;
     width: 60px;
     height: 60px;
     border: 1px solid #e1e1e1;
     cursor: pointer;
-    overflow: hidden;
+    
 }
-
+.thurb_li:hover{
+	border: 1px solid red;
+}
 .share_focus {
 	float:left;
     margin-left: 20px;
@@ -309,6 +361,9 @@
 	float:left;
 	line-height: 32px;	
 }
+.margin-min a{
+	color:#000;
+}
 .v-item {
     position: relative;
     display: inline-block;
@@ -387,4 +442,292 @@
 .v-buy{
 	clear:left;
 }
+/****************商品推荐**********************/
+.info-hot {
+    float: right;
+    padding: 8px;
+    width: 190px;
+    
+}
+.info-hot h2 {
+    line-height: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 600;
+}
+.info-hot h2 i {
+    margin-left: 10px;
+    color: #E10808;
+    font-style:normal;
+}
+.hot-item {
+	font-size:12px;
+    padding: 10px;
+    text-align: center;
+}
+.hot-item a {
+    color: #232323;
+}
+.hot-item p {
+    color: #E10808;
+}
+.dt-left{
+	float:left;
+	width:990px;
+	
+}
+/*************************详情内容*****************************************/
 
+.artical{
+	border:1px solid red;
+	overflow:hidden;
+}
+.dt-nav {
+/*	position:relative;*/
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e1e1e1;
+    background-color: #f3f4f5;
+    text-align: center;
+}
+.oa{
+    height: 46px;
+    background-color: #fff;
+    color: #E10808;
+    border-bottom: 4px solid #E10808;
+}
+.dt-tap {
+    display: inline-block;
+    margin-left: -1px;
+    float: left;
+    width: 247px;
+    font-size: 14px;
+    border-left: 1px solid #e1e1e1;
+}
+.dt-nav {
+    line-height: 50px;
+    text-align: center;
+}
+.dt-nav a{
+	 color: #232323
+}   
+.dt-nav span {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) 0 -123px;
+}
+.on{
+    color: #E10808;
+}
+.dt-nav .dt-icon2 {
+    background-position: -24px -123px;
+}
+.dt-nav .dt-icon3{
+	background-position: -49px -123px;
+}
+.dt-nav .dt-icon4{
+	background-position: -72px -123px;
+}
+.dt-tap:hover {
+	
+    color: #E10808;
+}
+.honor-sec,.detail-sec,.can-sec,.com-sec{
+	margin-top:20px;
+    padding: 10px 15px; 
+}
+.honor-wall {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.honor-nav {
+    float: left;
+    width: 30px;
+    height: 500px;
+}
+.honor-nav a {
+    display: block;
+    padding: 28px 8px;
+    height: 69px;
+    background-color: #494949;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.honor-list {
+    float: left;
+    width: 928px;
+    height: 498px;
+    border: 1px solid #DDDDDD;
+    overflow: hidden;
+}
+.dt-sec {
+    padding: 10px 15px;
+}
+.dt-sec .h2{
+    line-height: 40px;
+    font-size: 20px;
+    color: #636363;
+}
+.dt-con {
+    padding: 10px 0;
+}
+.cs_tab {
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 2px solid #e1e1e1;
+    width: 100%;
+    border-right: 1px solid #e1e1e1;
+}
+table {
+	font-size:12px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.td_tit {
+    background-color: #f5fbff;
+    width: 118px;
+    text-align: right;
+}
+.cs_tab td {
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    color: #444;
+    display: table-cell;
+    vertical-align: inherit;
+}
+.dt-con {
+    padding: 10px 0;
+}
+.description img {
+    display: block;
+    margin: 0 auto;
+}
+.more-h2 {
+    border-bottom: 1px solid #e1e1e1;
+}
+.dt-com{
+	border: 1px solid #e1e1e1;
+}
+.com-h {
+    padding: 5px 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+strong,.com-h b {
+    font-weight: bold;
+}
+.com-h span {
+    display: inline-block;
+    margin-right: 60px;
+}
+.dt-com .star-5 {
+    width: 80px;
+}
+.dt-com .star,#star{
+	display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites1.png) no-repeat 0 -100px;
+}
+.com-h i {
+	font-weight:normal;
+    color: #E10808;
+    font-size:14px;
+}
+.com-ul .cfix2{
+	overflow: hidden;
+    padding: 30px;
+    border-top: 1px solid #e1e1e1;
+    font-size: 14px;
+}
+.dt-com .use-info {
+    width: 300px;
+    float:left;
+}
+.use-info p {
+    line-height: 25px;
+}
+.use-info .client {
+    font-size: 12px;
+}
+.use-msg {
+    width: 565px;
+    color: #555555;
+    float:right;
+}
+.use-msg .com-time {
+    line-height: 25px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.more-com {
+	font-size:12px;
+    line-height: 40px;
+    text-align: right;
+    color: #E10808;
+}
+.more-com span {
+    cursor: pointer;
+    user-select: none;
+}
+.more-com i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(http://s.hqbcdn.com/assets/v4/images/item/sprites2.png) no-repeat -110px -70px;
+    font-style: normal;
+    font-weight: normal;
+}
+.dt-right {
+    float: right;
+    width: 198px;
+    border: 1px solid #e1e1e1;
+}
+.dt-right h2 {
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dt-right h2 i{
+	font-style:normal;
+	font-weight:normal;
+}
+.dt-right li {
+	font-size:12px;
+    padding: 10px;
+    height: 200px;
+}
+.dt-right .dt-p {
+    margin-bottom: 5px;
+    height: 130px;
+    text-align: center;
+}
+.dt-right a {
+    display: block;
+}
+.dt-right .dt-a {
+    height: 40px;
+    line-height: 20px;
+    color: #515050;
+    overflow: hidden;
+}
+.dt-right b {
+	font-weight: bold;
+    color: #E10808;
+}.dt-right del {
+    color: #515050;
+    text-decoration: line-through;
+}
+
+
+
+    
