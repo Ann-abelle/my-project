@@ -100,7 +100,6 @@
 }
 .product_info{
 	position:relative;
-	border:1px solid red;
 	overflow:hidden;
 	padding:10 0 20 0;
 	height:auto;
@@ -128,8 +127,8 @@
 	top:0;
 	left:0;
 	background:red;
-	filter:alpha(opacity:.1);
-	opacity:.1;
+	filter:alpha(opacity:.0);
+	opacity:.0;
 }
 .big_show_pic{/*放大图片的盒子*/
 	position:absolute;
@@ -188,7 +187,6 @@
 	position: relative;
     height: 62px;
     overflow: hidden;
-    border: 1px solid red;
 }
 .thurb-sl ul {
 	width:100%;	
@@ -480,7 +478,6 @@
 /*************************详情内容*****************************************/
 
 .artical{
-	border:1px solid red;
 	overflow:hidden;
 }
 .dt-nav {
